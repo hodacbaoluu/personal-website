@@ -1,0 +1,26 @@
+
+body{
+    margin: 0;
+    color: #ffffff;
+}
+.nav-header{
+    background: #000;
+    width: 100vw;
+    height: 100px;
+}
+.container-hello{
+    background: red;
+    width: 100vw;
+    height: 600px; 
+}
+
+.project{
+    background: green;
+    width: 100vw;
+    height: 800px; 
+}
+.footer{
+    background: #441444;
+    width: 100vw;
+    height: 200px; 
+}
