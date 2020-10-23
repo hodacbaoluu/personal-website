@@ -1,56 +1,19 @@
-body
-{
-    margin:0px;
-    font-size: 100%;
+body{
+	text-align: center;
+	margin-top: 40vh;
+	font-size: 35px;
+	font-family: 'Staatliches', cursive;
 }
-
-
-.text-nf{
-    font-size: 72px;
-    background: -webkit-linear-gradient( #e94057, #f27121);
-    -webkit-background-clip: text;
-    /* background: linear-gradient(to right, #30CFD0 0%, #330867 100%); */
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-    font-family: 'Concert One';
-
-}
-
-.p{
-    font-size: 50px;
-    transform: translateY(20%);
-    margin-left: 10px;
- 
-}
-.thongbao{
-    display: inline-flex;
-    flex-wrap: nowrap;
-    text-align: center;
-
-}
-
-.container-notif{
-    text-align: center;
-    margin-top: 20vh;
-}
-
-
-.ml6 {
-    position: relative;
-    font-weight: 900;
-    font-size: 3.3em;
+.title {
+	font-size: 72px;
+	color: #d7385e;
+	position: relative;
   }
-  
-  .ml6 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
-  }
-  
-  .ml6 .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
+.heart{
+	position: absolute;
+	font-size: 53px;
+	transform: translate(600%,70%);
+}
+.nof{
+	display: inline-flex;
+}
